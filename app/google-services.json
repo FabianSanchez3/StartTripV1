@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "328040568210",
+    "project_id": "start-trip",
+    "storage_bucket": "start-trip.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328040568210:android:b550525e46f5a31af31d4b",
+        "android_client_info": {
+          "package_name": "com.example.starttripv1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "328040568210-phle7hi31ih21as8lo6q2a82e2jf88vq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhWMkCmJbgfrgHWId9P-UbzBkjr5hHMlY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "328040568210-phle7hi31ih21as8lo6q2a82e2jf88vq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

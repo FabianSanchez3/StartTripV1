@@ -9,4 +9,7 @@
     <string name="facebook">continua con facebook</string>
     <string name="login">inicia sesion</string>
     <string name="cuenta">Ya tienes una Cuenta?</string>
+    <string name="example">Ex: abcd@example.com</string>
+    <string name="examplepassword">password</string>
+
 </resources>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">StartTripV1</string>
+    <string name="str_welcome">Bienvenidos a</string>
+    <string name="str_travel">Un lugar en el que puedes hacer tu reservacion para tu viaje...</string>
+    <string name="start">Vamos a Empezar...</string>
+</resources>

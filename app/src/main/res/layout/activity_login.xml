@@ -16,6 +16,7 @@
         android:layout_marginEnd="16dp"
         android:text="@string/str_welcome"
         android:textSize="32sp"
+        android:textStyle="bold"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -28,8 +29,8 @@
         android:layout_width="0dp"
         android:layout_height="116dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="200dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="190dp"
         android:text="@string/str_travel"
         android:textColor="@color/white"
         android:textSize="24sp"
@@ -44,7 +45,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="23dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="150dp"
         android:layout_marginBottom="378dp"
         android:text="@string/start"
@@ -53,13 +54,95 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.19999999" />
 
-    <com.google.android.material.button.MaterialButton
+    <Button
+        android:id="@+id/bSearch"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="380dp"
+        android:background="@drawable/rectangle"
+        android:drawableLeft="@drawable/ic_google1"
+        android:padding="16dp"
+        android:text="@string/correo"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/bSearch2"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="276dp"
+        android:background="@drawable/rectangle"
+        android:drawableLeft="@drawable/ic_correo"
+        android:padding="16dp"
+        android:text="@string/inicia_sesion_con_correo"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bSearch"
+        app:layout_constraintVertical_bias="0.441" />
+
+    <Button
+        android:id="@+id/bSearch3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="19dp"
+        android:background="@drawable/rectangle"
+        android:drawableLeft="@drawable/ic_facebook"
+        android:padding="16dp"
+        android:text="@string/facebook"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bSearch2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Text button"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="73dp"
-        tools:layout_editor_absoluteY="64dp" />
+        android:text="@string/cuenta"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.23"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bSearch3"
+        app:layout_constraintVertical_bias="0.469" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textColor="@color/blue1"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.819"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bSearch3"
+        app:layout_constraintVertical_bias="0.469" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

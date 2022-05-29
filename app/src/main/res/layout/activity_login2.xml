@@ -15,10 +15,9 @@
         android:layout_marginTop="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.989"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/vector" />
 
     <TextView
@@ -55,15 +54,18 @@
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
-        android:layout_width="344dp"
-        android:layout_height="54dp"
+        android:layout_width="356dp"
+        android:layout_height="57dp"
         android:layout_marginStart="15dp"
         android:layout_marginTop="356dp"
         android:layout_marginEnd="15dp"
         android:background="@drawable/rectangle1"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="20dp"
         android:ems="15"
         android:hint="@string/example"
         android:inputType="textEmailAddress"
+        android:padding="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.351"
         app:layout_constraintStart_toStartOf="parent"
@@ -76,8 +78,11 @@
         android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"
         android:background="@drawable/rectangle1"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="20dp"
         android:ems="10"
         android:hint="@string/examplepassword"
+        android:padding="20dp"
         android:inputType="textPassword"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -122,10 +127,24 @@
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.105"
+        app:layout_constraintHorizontal_bias="0.11"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
-        app:layout_constraintVertical_bias="0.395" />
+        app:layout_constraintVertical_bias="1.0" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:backgroundTint="@color/blue1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+        app:layout_constraintVertical_bias="0.284"
+        app:shapeAppearanceOverlay="@style/buttomShape"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/bSearch"
@@ -135,7 +154,7 @@
         android:layout_marginTop="660dp"
         android:layout_marginEnd="15dp"
         android:layout_marginBottom="95dp"
-        android:background="@drawable/rectangle"
+        app:shapeAppearanceOverlay="@style/buttomShape"
         android:drawableLeft="@drawable/ic_google1"
         android:padding="16dp"
         android:text="@string/correo"
@@ -147,4 +166,33 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
         tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="No tienes una cuenta?"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.242"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bSearch" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crea Una"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.699"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bSearch"
+        app:layout_constraintVertical_bias="0.383" />
 </androidx.constraintlayout.widget.ConstraintLayout>

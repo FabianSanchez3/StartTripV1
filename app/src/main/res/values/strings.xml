@@ -10,6 +10,9 @@
     <string name="login">inicia sesion</string>
     <string name="cuenta">Ya tienes una Cuenta?</string>
     <string name="example">Ex: abcd@example.com</string>
-    <string name="examplepassword">password</string>
+    <string name="examplepassword">Contraseña</string>
+    <string name="date">"fecha "</string>
+    <string name="registration">"Registrar "</string>
+
 
 </resources>

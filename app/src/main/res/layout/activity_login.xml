@@ -129,20 +129,18 @@
         app:layout_constraintTop_toBottomOf="@+id/bSearch3"
         app:layout_constraintVertical_bias="0.469" />
 
-    <TextView
-        android:id="@+id/textView4"
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/textButton"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/login"
+        android:text="inicia sesion"
         android:textColor="@color/blue1"
-        android:textSize="19sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.819"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bSearch3"
-        app:layout_constraintVertical_bias="0.469" />
-
+        tools:layout_editor_absoluteX="243dp"
+        tools:layout_editor_absoluteY="710dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

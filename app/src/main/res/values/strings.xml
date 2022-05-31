@@ -13,6 +13,8 @@
     <string name="examplepassword">Contraseña</string>
     <string name="date">"fecha "</string>
     <string name="registration">"Registrar "</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>

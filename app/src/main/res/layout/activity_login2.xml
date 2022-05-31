@@ -166,7 +166,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
         app:layout_constraintVertical_bias="0.284"
-        app:shapeAppearanceOverlay="@style/buttomShape"
+
         tools:ignore="MissingConstraints" />
 
     <Button
@@ -177,7 +177,7 @@
         android:layout_marginTop="660dp"
         android:layout_marginEnd="15dp"
         android:layout_marginBottom="95dp"
-        app:shapeAppearanceOverlay="@style/buttomShape"
+
         android:drawableLeft="@drawable/ic_google1"
         android:padding="16dp"
         android:text="@string/correo"
